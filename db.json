@@ -1,0 +1,66 @@
+{
+  "transactions" : [
+  {
+    "id": 1,
+    "description": "Burger Camp",
+    "amount": 346.00,
+    "category": {
+      "id": 3,
+      "name": "Food"
+    },
+    "created_at": "2024-12-23T10:00:00Z",
+    "created_by": "User1",
+    "updated_at": "2024-12-23T10:30:00Z",
+    "updated_by": "User1"
+  },
+  {
+    "id": 2,
+    "description": "Grocery Store",
+    "amount": 1298.50,
+    "category": {
+      "id": 4,
+      "name": "Shopping"
+    },
+    "created_at": "2024-12-22T14:00:00Z",
+    "created_by": "User2",
+    "updated_at": "2024-12-22T15:00:00Z",
+    "updated_by": "User2"
+  },
+  {
+    "id": 3,
+    "description": "Gas Station",
+    "amount": 985.75,
+    "category": {
+      "id": 2,
+      "name": "Transport"
+    },
+    "created_at": "2024-12-21T09:00:00Z",
+    "created_by": "User3",
+    "updated_at": "2024-12-21T10:00:00Z",
+    "updated_by": "User3"
+  },
+  {
+    "id": 4,
+    "description": "Movie Night",
+    "amount": 499.99,
+    "category": {
+      "id": 5,
+      "name": "Entertainment"
+    },
+    "created_at": "2024-12-20T19:00:00Z",
+    "created_by": "User4",
+    "updated_at": "2024-12-20T20:00:00Z",
+    "updated_by": "User4"
+  }
+],
+"categories" : [
+  {"id" : 2, "name": "Transport"},
+  {"id" : 3, "name": "Food"},
+  {"id" : 4, "name": "Shopping"},
+  {"id" : 5, "name": "Entertainment"}
+],
+"budget":[
+  
+]
+
+}
